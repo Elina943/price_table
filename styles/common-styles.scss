@@ -1,0 +1,111 @@
+.price-card {
+  max-width: 380px;
+
+  background-color: $card-background-main-color;
+  margin-right: 18px;
+  padding: 30px 0 40px 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 33px;
+  }
+
+  &__fee {
+    background-color: $color-green;
+    margin: 0;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    height: 105px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+
+  &__description {
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    height: 116px;
+    padding: 40px 26px;
+  }
+
+  &__list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+
+    &_item {
+      height: 50px;
+      display: flex;
+      align-items: center;
+
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+
+      &:nth-last-child(even) {
+        background-color: $card-background-secondary-color;
+      }
+    }
+  }
+
+  &__arrow {
+    width: 15px;
+    height: 13px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  &__button {
+    color: $text-color;
+    border-radius: 20px;
+    border: none;
+    width: 154px;
+    height: 40px;
+    margin-top: 39px;
+  }
+
+  &__subtitle {
+    position: relative;
+  }
+
+  &__popular {
+    width: 147px;
+    height: 25px;
+    background-color: $color-red;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    left: 69.35%;
+    top: 0%;
+  }
+}

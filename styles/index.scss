@@ -1,0 +1,26 @@
+@import 'variables.scss';
+@import 'common-styles.scss';
+@import 'color-differences.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $page-color;
+  color: $text-color;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prices-blocks {
+  display: flex;
+}
