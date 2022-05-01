@@ -1,9 +1,7 @@
 .price-card {
   max-width: 380px;
-
   background-color: $card-background-main-color;
   margin-right: 18px;
-  padding: 30px 0 40px 0;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -12,49 +10,52 @@
     margin-right: 0;
   }
 
+  &__subtitle {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__title {
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
-    text-align: center;
     margin: 0;
   }
 
-  &__subtitle {
+  &__website-title {
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
     margin: 0;
-    margin-bottom: 33px;
   }
 
   &__fee {
-    background-color: $color-green;
-    margin: 0;
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
-    text-align: center;
     height: 105px;
-    padding-top: 19px;
-    padding-bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__description {
     margin: 0;
     font-weight: 300;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 18.29px;
     text-align: center;
-    height: 116px;
     padding: 40px 26px;
   }
 
-  &__list {
+  &__options-list {
     width: 100%;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 
     &_item {
       height: 50px;
@@ -85,6 +86,7 @@
     width: 154px;
     height: 40px;
     margin-top: 39px;
+    margin-bottom: 40px;
   }
 
   &__subtitle {
@@ -106,6 +108,6 @@
     position: absolute;
     right: 0%;
     left: 69.35%;
-    top: 0%;
+    top: 20%;
   }
 }
