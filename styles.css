@@ -38,6 +38,7 @@
   justify-content: center;
 }
 .price-card__description {
+  height: 116px;
   margin: 0;
   font-weight: 300;
   font-size: 15px;
